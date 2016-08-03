@@ -1,0 +1,43 @@
+AllCops:
+  DisplayCopNames: true
+  Exclude:
+    - 'bin/*'
+
+Style/BarePercentLiterals:
+  EnforcedStyle: percent_q
+
+Style/EmptyLineBetweenDefs:
+  AllowAdjacentOneLineDefs: true
+
+Style/MultilineOperationIndentation:
+  EnforcedStyle: indented
+
+Metrics/LineLength:
+  Max: 120
+
+Lint/EndAlignment:
+  AlignWith: variable
+
+Style/TrailingCommaInLiteral:
+  EnforcedStyleForMultiline: comma
+
+Lint/AssignmentInCondition:
+  Enabled: false
+
+Style/DoubleNegation:
+  Enabled: false
+
+Style/SingleLineBlockParams:
+  Enabled: false
+
+Lint/Eval:
+  Enabled: false
+
+Documentation:
+  Enabled: false
+
+Rails:
+  Enabled: true
+
+Metrics/ModuleLength:
+  Max: 200
