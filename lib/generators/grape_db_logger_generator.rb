@@ -4,7 +4,7 @@ require 'rails/generators/active_record'
 class GrapeDbLoggerGenerator < ActiveRecord::Generators::Base
   argument :name, type: :string, default: 'random_name'
 
-  class_option: 'skip-migration', type: boolean, desc: "Don't generate a migration for the logs table"
+  class_option :'skip-migration', type: boolean, desc: "Don't generate a migration for the logs table"
 
   source_root File.expand_path('../../grape_db_logger', __FILE__)
 
